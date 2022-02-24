@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   int contributors, projects;
+    cin >> contributors;
+    cin >> projects;
+    
+    string contributorName;
+    int numberOfSkill;
+    string skillName;
+    int skillLevel;
+    for(int i=0; i<contributors; i++){
+    	cin>> contributorName;
+    	cin>> numberOfSkill;
+    	for(int j=0; j<numberOfSkill; j++){
+    		cin>> skillName;
+    	    cin>> skillLevel;
+		}	
+	}
+	
+	for(int i=0; i<projects; i++){
+		string projectName;
+		int numberOfContributor;
+		int a, b,c,d;
+		cin>> projectName;
+	    cin>> a;
+	    cin>> b;
+	    cin>> c;
+	    cin>> numberOfContributor;
+	    string skill;
+	    int level;
+	    for(int i=0; i<numberOfContributor; i++){
+		cin>> skill;
+		cin>> level;
+	  }
+	}
+	
+    return 0;
+}
